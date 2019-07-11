@@ -1,0 +1,191 @@
+{
+	"trainer": {
+		"id": 1,
+	  "name": "Trainer 1",
+	  "last_name": "TrainerLastName",
+	  "phone_number": "1234567891",
+	  "image": "https://lakewangaryschool.sa.edu.au/wp-content/uploads/2017/11/placeholder-profile-sq.jpg",
+	  "institute_id": 9,
+	  "email": "trainer_1@trainer.com",
+	  "teams": [
+	  	{
+	  		"id": 1,
+      	"name": "Los Cocos",
+      	"image": "https://gamepedia.cursecdn.com/dota2_gamepedia/thumb/4/4d/Team_logo_Team_Spirit.png/256px-Team_logo_Team_Spirit.png?version=4552bbb14baa68c9ab2e9f354a05df32",
+      	"gender": "Varonil"
+	  	},
+	  	{
+	      "id": 2,
+	      "name": "Los Canayas",
+	      "image": "http://loodibee.com/wp-content/uploads/nfl-arizona-cardinals-team-logo-2-300x300.png",
+	      "gender": "Varonil"
+    	}
+	  ]
+	},
+
+	"match_history":[
+		{
+	    "id": 1,
+	    "date": "2019-12-12",
+	    "time": "18:00",
+	    "played": true,
+	    "away": {
+	      "id": 1,
+	      "name": "Los Cocos",
+	      "image": "https://gamepedia.cursecdn.com/dota2_gamepedia/thumb/4/4d/Team_logo_Team_Spirit.png/256px-Team_logo_Team_Spirit.png?version=4552bbb14baa68c9ab2e9f354a05df32",
+	      "score": 2
+    	},
+    	"local": {
+      	"id": 2,
+      	"name": "Los Canayas",
+      	"image": "http://loodibee.com/wp-content/uploads/nfl-arizona-cardinals-team-logo-2-300x300.png",
+      	"score": 0
+    	}
+  	},
+	  {
+	    "id": 2,
+	    "date": "2019-12-12",
+	    "time": "18:00",
+	    "played": true,
+	    "away": {
+	      "id": 2,
+	      "name": "Los Canayas",
+	      "image": "http://loodibee.com/wp-content/uploads/nfl-arizona-cardinals-team-logo-2-300x300.png",
+	      "score": 2
+	    },
+	    "local": {
+	      "id": 3,
+	      "name": "Los Endebles",
+	      "image": "http://content.sportslogos.net/slnet-505x505trans.png",
+	      "score": 3
+	    }
+	  }
+	],
+
+	"competition":{
+		"name":"Torneo Acapulco",
+		"categories": [
+		  {
+		    "category": "Categoría 2001",
+		    "rounds": [
+		      {
+		        "round": "Jornada 1",
+		        "date": "2019-12-12",
+		        "matches": [
+		          {
+		            "id": 1,
+		            "played": false,
+		            "date": "2019-12-12",
+		            "time": "18:00",
+		            "has_agreement": true,
+		            "away": {
+		              "id": 1,
+		              "name": "Los Cocos",
+		              "image": "http://loodibee.com/wp-content/uploads/nfl-arizona-cardinals-team-logo-2-300x300.png"
+		            },
+		            "local": {
+		              "id": 2,
+		              "name": "Los Conejos",
+		              "image": "http://loodibee.com/wp-content/uploads/nfl-arizona-cardinals-team-logo-2-300x300.png"
+		            }
+		          }
+		        ]
+		      }
+		    ]
+		  },
+		  {
+		    "name": "Categoría 2003",
+		    "rounds": [
+		      {
+		        "number": "Jornada 2",
+		        "date": "2019-12-12",
+		        "matches": [
+		          {
+		            "id": 1,
+		            "played": false,
+		            "date": "2019-12-12",
+		            "time": "18:00",
+		            "has_agreement": true,
+		            "away": {
+		              "id": 1,
+		              "name": "Los Cocos",
+		              "image": "http://loodibee.com/wp-content/uploads/nfl-arizona-cardinals-team-logo-2-300x300.png"
+		            },
+		            "local": {
+		              "id": 2,
+		              "name": "Los Conejos",
+		              "image": "http://loodibee.com/wp-content/uploads/nfl-arizona-cardinals-team-logo-2-300x300.png"
+		            }
+		          }
+		        ]
+		      }
+		    ]
+		  }
+		]
+	},
+	"match": {
+		"id": 1,
+		"referee_id": 1,
+		"field": null,
+		"playtime": null,
+		"played": false,
+		"group": 0,
+		"local": {
+			"id": 6,
+		  "name": "asdsad",
+	    "image": "http://loodibee.com/wp-content/uploads/nfl-arizona-cardinals-team-logo-2-300x300.png",
+		  "players": [
+				{
+					"id": 2,
+				  "name": "JUAN",
+				  "last_name": "asdsdasd",
+				  "shirt_number": 3,
+				  "position": "Portero",
+				  "image": "http://p.imgci.com/db/PICTURES/CMS/112800/112859.jpg",
+				  "attendance": false
+				},
+				{
+					"id": 3,
+				  "name": "SAD",
+				  "last_name": "dasdasdasdasd",
+				  "shirt_number": 3,
+				  "position": "Portero",
+				  "image": "http://p.imgci.com/db/PICTURES/CMS/112800/112859.jpg",
+				  "attendance": true
+				}
+		  ],
+		  "trainer": null
+		},
+		"away": {
+			"id": 7,
+			"name": "sdadsad",
+	     "image": "http://loodibee.com/wp-content/uploads/nfl-arizona-cardinals-team-logo-2-300x300.png",
+			"players": [
+				{
+					"id": 2,
+				  "name": "JUAN",
+				  "last_name": "asdsdasd",
+				  "shirt_number": 3,
+				  "position": "Portero",
+				  "image": "http://p.imgci.com/db/PICTURES/CMS/112800/112859.jpg",
+				  "attendance": true
+				},
+				{
+					"id": 3,
+				  "name": "SAD",
+				  "last_name": "dasdasdasdasd",
+				  "shirt_number": 3,
+				  "position": "Portero",
+				  "image": "http://p.imgci.com/db/PICTURES/CMS/112800/112859.jpg",
+				  "attendance": false
+				}
+		  ],
+		  "trainer": {
+				"id": 1,
+				"name": "Trainer 1",
+				"last_name": "TrainerLastName",
+				"image": ""
+			}
+		}
+  }
+}
